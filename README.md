@@ -18,23 +18,23 @@ O código testa e soluciona 4 *benchmarks* clássicos de engenharia mecânica:
 
 ## 📁 Estrutura do Projeto
 .
-├── CMakeLists.txt              # Script de configuração do CMake
+├── CMakeLists.txt               
 └── src/
-    ├── main.cpp                # Ponto de entrada, define orçamento (budget) e orquestra OpenMP
-    ├── core/                   # Núcleo da meta-heurística
-    │   ├── apm.cpp / .hpp      # Implementação do Adaptive Penalty Method
-    │   ├── mspso.cpp / .hpp    # Implementação do Multi-Swarm PSO
-    │   ├── particle.hpp        # Classe base das partículas do enxame
-    │   ├── swarm.hpp           # Definição das Ilhas (Sub-enxames)
-    │   └── constraintHandler.hpp # Interface para manipuladores de restrição
-    ├── problems/               # Modelagem Físico-Matemática dos benchmarks
-    │   ├── problem.hpp         # Classe abstrata base para os problemas
-    │   ├── SpringProblem...    # Problema da Mola
-    │   ├── ReducerProblem...   # Problema do Redutor
-    │   ├── WeldedBeamProblem...# Problema da Viga Soldada
-    │   └── PressureVesselProblem... # Problema do Vaso de Pressão
+    ├── main.cpp                
+    ├── core/                   
+    │   ├── apm.cpp / .hpp      
+    │   ├── mspso.cpp / .hpp    
+    │   ├── particle.hpp        
+    │   ├── swarm.hpp           
+    │   └── constraintHandler.hpp 
+    ├── problems/               
+    │   ├── problem.hpp         
+    │   ├── SpringProblem...    
+    │   ├── ReducerProblem...   
+    │   ├── WeldedBeamProblem...
+    │   └── PressureVesselProblem... 
     └── utils/
-        └── Stats.hpp           # Motor de extração e salvamento de logs em CSV
+        └── Stats.hpp           
 
 ## 🛠️ Como Rodar o Programa (Passo a Passo)
 
